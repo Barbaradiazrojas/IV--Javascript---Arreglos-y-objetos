@@ -1,28 +1,28 @@
 /* Estilo para la sección principal */
 .main-section {
     background-image: url('../img/img-main.jpeg');
-    background-size: cover; /* La imagen cubrirá todo el ancho y alto */
-    background-position: center; /* Centrar la imagen */
-    height: 300px; /* Altura fija */
+    background-size: cover; 
+    background-position: center; 
+    height: 300px; 
     display: flex;
-    align-items: center; /* Centra verticalmente el contenido */
-    justify-content: center; /* Centra horizontalmente el contenido */
-    color: #fff; /* Color de texto blanco */
-    text-align: center; /* Centrado del texto */
+    align-items: center; 
+    justify-content: center; 
+    color: #fff; 
+    text-align: center; 
 }
 
 /* Estilo para las tarjetas */
 .card {
-    height: auto; /* Ajuste dinámico según el contenido */
-    border: 1px solid #ddd; /* Agregar un borde tenue */
-    border-radius: 8px; /* Bordes redondeados */
-    overflow: hidden; /* Evita que el contenido sobresalga */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    height: auto; 
+    border: 1px solid #ddd; 
+    border-radius: 8px; 
+    overflow: hidden; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
 }
 
 /* Estilo para las imágenes dentro de las tarjetas */
 .card img {
-    width: 100%; /* La imagen ocupará todo el ancho de la tarjeta */
-    height: auto; /* Mantiene la proporción original */
-    object-fit: cover; /* Ajusta la imagen sin distorsionarla */
+    width: 100%; 
+    height: auto; 
+    object-fit: cover; 
 }
