@@ -22,8 +22,8 @@ const condicion_fumar = (condicion = false) => {
 
 // Función para construir las tarjetas con información de las propiedades
 const construccion_card = (contenido, ciclos = 0) => {
-  let contador = 0; // Lleva el conteo de tarjetas generadas
-  let contenidoHtml = ''; // Contenedor para el HTML generado
+  let contador = 0; 
+  let contenidoHtml = ''; 
 
   // Itera sobre el arreglo de contenido
   for (let objeto of contenido) {
@@ -61,5 +61,4 @@ const construccion_card = (contenido, ciclos = 0) => {
       // Si se alcanza el límite de ciclos especificado, detener y devolver el HTML acumulado
       if (contador === ciclos) break;
   }
-  return contenidoHtml; // Devuelve el HTML generado
-};
+  return contenidoHtml; 

@@ -101,5 +101,5 @@ const construccion_card = (contenido, ciclos = 0) => {
       // Si se alcanza el límite de ciclos especificado, detener y devolver el HTML acumulado
       if (contador === ciclos) break;
   }
-  return contenidoHtml; // Devuelve el HTML generado
+  return contenidoHtml; 
 };
