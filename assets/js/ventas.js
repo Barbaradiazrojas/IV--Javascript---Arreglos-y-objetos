@@ -1,34 +1,94 @@
 const propiedades_ventas = [
   {
     nombre: 'Apartamento de lujo en zona exclusiva',
-    src: 'https://fotos.perfil.com/2018/09/21/trim/950/534/nueva-york-09212018-366965.jpg',
+    src: './assets/img/10.jpg',
     descripcion: 'Este apartamento de lujo está ubicado en una exclusiva zona residencial.',
-    ubicacion: '123 Luxury Lane, Prestige Suburb, CA 45678',
+    ubicacion: '123 Luxury Lane, Reñaca, Chile',
     habitaciones: 4,
-    costo: 5000,
+    costo: 50000000,
     smoke: false,
     pets: false
   },
   {
-    nombre: 'Apartamento acogedor en la montaña',
-    src: 'https://cdn.bioguia.com/embed/3d0fb0142790e6b90664042cbafcb1581427139/furgoneta.jpg',
-    descripcion: 'Este apartamento acogedor está situado en lo alto de una montaña con impresionantes vistas.',
-    ubicacion: '789 Mountain Road, Summit Peaks, CA 23456',
-    habitaciones: 2,
-    costo: 1200,
+    nombre: 'Departamento de estudiantes',
+    src: './assets/img/11.jpg',
+    descripcion: 'Departamento adaptado para estudiantes',
+    ubicacion: '789 Barrio Universitario, Viña del Mar',
+    habitaciones: 3,
+    costo: 70000000,
     smoke: true,
     pets: true
   },
   {
-    nombre: 'Penthouse de lujo con terraza panorámica',
-    src: 'https://resizer.glanacion.com/resizer/fhK-tSVag_8UGJjPMgWrspslPoU=/768x0/filters:quality(80)/cloudfront-us-east-1.images.arcpublishing.com/lanacionar/CUXVMXQE4JD5XIXX4X3PDZAVMY.jpg',
-    descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares.',
-    ubicacion: '567 Skyline Avenue, Skyview City, CA 56789',
-    habitaciones: 3,
-    costo: 3800,
+    nombre: 'Casa fabricada con Container',
+    src: './assets/img/12.jpg',
+    descripcion: 'Esta Casa orece un servicio personalizado, adaptado a instalaciones modernas y exclusivas.',
+    ubicacion: '567 Skyline Avenue, Santiago.',
+    habitaciones: 1,
+    costo: 50800000,
     smoke: false,
     pets: true
-  }
+  },
+  {
+    nombre: 'Casa Prefabricada',
+    src: './assets/img/13.jpg',
+    descripcion: 'Este servicio ofrece una casa prefabricada, instalada según indicaciones.',
+    ubicacion: '567 Skyline Avenue, Valparaíso',
+    habitaciones: 3,
+    costo: 38000000,
+    smoke: false,
+    pets: true
+  },
+  {
+    nombre: 'Loft',
+    src: './assets/img/14.jpg',
+    descripcion: 'Loft de dos pisos moderno y exclusivo.',
+    ubicacion: '567 Skyline Avenue, Ñuñoa',
+    habitaciones: 1,
+    costo: 48000000,
+    smoke: false,
+    pets: true
+  },
+  {
+    nombre: 'Departamento con vista al mar',
+    src: './assets/img/15.jpg',
+    descripcion: 'Departamento hermoso ubicado en zona costera.',
+    ubicacion: '567 Skyline Avenue, Santo Domingo',
+    habitaciones: 4,
+    costo: 88000000,
+    smoke: false,
+    pets: true
+  },
+    {
+      nombre: 'Departamento residencial',
+      src: './assets/img/16.jpg',
+      descripcion: 'Departamento centrico, cercano a metro, colegios y bancos.',
+      ubicacion: '567 Skyline Avenue, Santiago',
+      habitaciones: 3,
+      costo: 3800,
+      smoke: false,
+      pets: true
+    },
+    {
+      nombre: 'Casa Familiar',
+      src: './assets/img/17.jpg',
+      descripcion: 'Esta casa ofrece un patio grande, exclusiva cocina, 5 baños, un espacio confortable para la familia.',
+      ubicacion: '567 Skyline Avenue, Lampa',
+      habitaciones: 14,
+      costo: 200000000,
+      smoke: false,
+      pets: true
+    },
+    {
+      nombre: 'Casa de lujo',
+      src: './assets/img/18.jpg',
+      descripcion: 'Este penthouse de lujo ofrece una terraza panorámica con vistas espectaculares.',
+      ubicacion: '567 Skyline Avenue, Santo Domingo',
+      habitaciones: 8,
+      costo: 400000000,
+      smoke: false,
+      pets: true
+    },
 ];
 
 document.addEventListener('DOMContentLoaded', () => {

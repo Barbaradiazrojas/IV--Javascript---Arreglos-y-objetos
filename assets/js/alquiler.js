@@ -2,8 +2,8 @@ const propiedades_alquiler = [
   {
     nombre: 'Apartamento Moderno',
     src: './assets/img/apartamento_modeno.jpg',
-    descripcion: 'Apartamento moderno con excelentes vistas.',
-    ubicacion: 'Santiago, Chile',
+    descripcion: 'Este hermoso apartamento ofrece una vista impresionante al mar',
+    ubicacion: '27, avenida Francisco Garcia Huidobro, Santiago',
     habitaciones: 3,
     costo: 850000,
     smoke: false,
@@ -42,8 +42,8 @@ const propiedades_alquiler = [
   {
     nombre: 'Departamento Urbano',
     src: './assets/img/departamento_urbano.jpg',
-    descripcion: 'Departamento céntrico cerca de todo.',
-    ubicacion: 'Las Condes, Santiago',
+    descripcion: 'Este elegante departamento moderno está ubicado en una tranquila zona residencial.',
+    ubicacion: '896, Federico García Lorca,Providencia',
     habitaciones: 2,
     costo: 600000,
     smoke: false,
@@ -83,11 +83,11 @@ const propiedades_alquiler = [
     nombre: 'Villa Mediterránea',
     src: './assets/img/villa_mediterranea.jpg',
     descripcion: 'Amplia villa con piscina privada.',
-    ubicacion: 'La Serena, Chile',
+    ubicacion: '465 orquideas, La Serena',
     habitaciones: 4,
     costo: 1800000,
-    smoke: true,
-    pets: true
+    smoke: false,
+    pets: false
   }
 ];
 
